@@ -1,8 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
 body{
-    background-color: black;
-    color: white;
+    background-image: url('space.jpg');
+    background-position: center;
 }
-img{
-    border: 3px solid red;
-    width: 300px;
+
+.bienve{
+    font-family: 'helvetica';
+    color: yellow;
+    font-size: 6em;
+    text-align: center;
+    margin: 20% 0 0 0;
+}
+.indicenlace{
+    color: yellow;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'arial';
+
+}
+.indicenlacedos{
+    color: yellow;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'arial';
+    margin: -35% 0 0 25%;
+    float: left;
+}
+a:hover{
+    color: red;
+    background-color: blue;
+}
+
+.vadertitulo{
+    color: yellow;
+    font-family: 'helvetica';
+    font-size: 3em;
+    float: left;
+    margin: 10% 0 0 0;
+    padding: 0 0 0 10%;
+}
+
+.vadertitulo:hover{
+    color: red;
+}
+
+.halcon{
+    width: 30%;
+}
+.voss{
+    width: 5%;
+    margin-left: 20%;  
+}
+.return{
+    color: yellow;
+    font-family: 'helvetica';
+    font-size: 3em;
+    margin-top: 10%;
+    margin-left: 38%;
+}
+.returner{
+    text-decoration: none;
 }
